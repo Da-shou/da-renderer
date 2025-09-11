@@ -1,2 +1,4 @@
 # da-renderer
-A small C++ project to build a nice 3D renderer using OpenGL and C++. The goal is to learn a maximum while familiarizing myself with nvim and other arch development tools.
+## **C++ and OpenGL renderer** by da-shou
+### :sparkles: Features
+I hope that someday i'll be able to put many of my renderer features here. For now, it's pretty empty...
