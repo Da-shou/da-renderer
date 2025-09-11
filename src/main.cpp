@@ -12,12 +12,13 @@ int main() {
 	}
 
 	// Initializing a window object
-	window = glfwCreateWindow(640,480,"GLFW Custom Window", nullptr, nullptr);
+	window = glfwCreateWindow(640,480,"GLFW Debug Window", nullptr, nullptr);
 
 	// As long as the window isn't told to close
 	while (not glfwWindowShouldClose(window)) {
 		glfwPollEvents();
 	}
-
+	
+	std::cout << "Ending GLFW program..." << std::endl;
 	return EXIT_SUCCESS;
 }
