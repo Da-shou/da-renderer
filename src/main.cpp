@@ -1,4 +1,5 @@
-#include "config.h"
+#include <iostream>
+#include <cstdlib>
 #include <GLFW/glfw3.h>
 
 int main() {
