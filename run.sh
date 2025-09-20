@@ -1,9 +1,6 @@
-# Make sur we are in workdir
-workdir = ~/Repositories/Da-shou@github.com/da-renderer
-cd workdir
-
 # Compile project using CMake
 cmake --build . --target clean
+cmake -S . -B build
 cmake --build .
 
 # Run program if successfully compiled
