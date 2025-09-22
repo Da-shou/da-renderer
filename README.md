@@ -1,5 +1,7 @@
 # da-renderer
 ## **C++ and OpenGL renderer** by da-shou
-### :sparkles: Features
-I hope that someday i'll be able to put many of my renderer features here. For now, it's pretty empty...
-Actually now I need to test signing commits.
+### :sparkles: Progression
+- [X] A window is displayed on the screen.
+- [X] The color of the window has been set.
+- [ ] A triangle has been drawn to the window. 
+- [ ] A shader has been used to customize the triangle's appearance.
