@@ -20,7 +20,9 @@ find_package(glfw3 REQUIRED)
 set(GCC_COMPILE_FLAGS "-Wall -Wextra -O3")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${GCC_COMPILE_FLAGS}")
 
-add_executable(da_renderer src/main.cpp)
+add_executable(da_renderer src/main.cpp src/utils.cpp)
+
+target_include_directories(da_renderer PRIVATE include)
 
 # Linking the libraries to the project
 target_link_libraries(da_renderer PRIVATE glad glfw)
