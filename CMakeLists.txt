@@ -20,8 +20,13 @@ find_package(glfw3 REQUIRED)
 set(GCC_COMPILE_FLAGS "-Wall -Wextra -O3")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${GCC_COMPILE_FLAGS}")
 
-add_executable(da_renderer src/main.cpp src/utils.cpp)
+add_executable(da_renderer 
+	src/main.cpp 
+	src/utils.cpp
+	src/meshes/triangle.cpp
+)
 
+# Including our own header files to the project
 target_include_directories(da_renderer PRIVATE include)
 
 # Linking the libraries to the project
